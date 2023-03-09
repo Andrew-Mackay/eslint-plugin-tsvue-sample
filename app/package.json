@@ -7,6 +7,7 @@
   "scripts": {
     "lint": "vue-cli-service --ext .js,.ts,.vue,.tsvue lint",
     "lint:broken": "vue-cli-service -c .eslintrc-broken.js lint",
+    "lint:require-type-checking": "vue-cli-service -c .eslintrc-require-type-checking.js --ext .js,.ts,.vue,.tsvue lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mickael Jeanroy",
